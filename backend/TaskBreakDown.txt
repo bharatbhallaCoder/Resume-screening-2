@@ -1,0 +1,25 @@
+1. Create a PDF to text Read program
+    windows + E to open Explorer
+    windows + arrow up down left right to max min move_left move_right
+    Alt + Tab to shift btw windows
+    cntrl + Tab to shift btw tabs in a window
+
+    1.1 Creating a anaconda Environment for Python
+        conda create -n name
+        conda list To list all packages in a given Environment
+        conda install pip
+    1.2 Installing PyPDF2
+        PyPDF2 is not able to extract text from PDF
+    1.3 Using alternative pdftotext
+        this package needs OS Dependies go to https://pypi.org/project/pdftotext/ to know more
+    1.5 It may happen that resume text may not be able to encode(Assuming that encoding issue is resolvedn)
+    1.4 Output above to txt file in python for later use (Put i/p and o/p in folder)
+
+2. Given a text Convert it into named enity Representation
+
+    2.1 Using spacy
+
+    2.2 To install spacy use for more info on Os Dependies https://spacy.io/usage
+    conda install -c conda-forge spacy
+    python -m spacy download en_core_web_sm
+---------------------Moving to Web Scraping------------------------
